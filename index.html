@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Listings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div id="navlogo" class="border">
+                <div id="logo">
+                    
+                </div>
+            </div>
+
+            <div class="heading">
+                <h1>Real Estate Listings</h1>
+                
+            </div>
+            
+            <div class="login">
+                <nav class="add">
+                    
+                </nav>
+                <button><a href="add_property.html " target="_main" style="text-decoration: none;">Add Property</a></button>
+                <select name="ids" id="dropdown" >
+                    <option value="profile">Profile</option>
+                    <option value="contacted">contacted properties</option>
+                    <option value="requested">requested properties</option>
+                    <option value="viewed">viewed properties</option>
+                    <option value="shortlisted">shortlisted properties</option>
+                </select>
+            </div>
+    </div>
+    </header>
+    <div class="bgm">
+
+    
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search by location...">
+            <button onclick="searchProperties()">Search</button>
+        </div>
+
+        <div id="property-listings" class="property-listings">
+            <!-- Dynamic property cards will be inserted here -->
+        </div>
+        <div class="property-categories">
+            <div class="category-box border">
+            <div class="image1">
+                </div>
+            
+            <h4>Homes by Owners</h4>
+            <a href="https://www.homes.com/">Explore →</a>
+            </div>
+            <div class="category-box border">
+            <div class="image2">
+                </div>
+            
+            <h4>Premium Projects</h4>
+            <a href="https://premiumbuilt.co.nz/">Explore →</a>
+            </div>
+            <div class="category-box border">
+            <div class="image3">
+                </div>
+            
+            <h4>Spacious Villa Homes</h4>
+            <a href="#">Explore →</a>
+            </div>
+            <div class="category-box border">
+            <div class="image4">
+                </div>
+            
+            <h4>Fully Furnished Homes</h4>
+            <a href="#">Explore →</a>
+            </div>
+        </div>
+
+        
+        <div class="advice-tools">
+            <h2>Advice & Tools</h2>
+            <div class="tools">
+                <div class="tool-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Rates & Trends</h3>
+                <p>Know all about Property Rates & Trends in your city</p>
+                <a href="https://www.99acres.com/property-rates-and-price-trends-prffid">View now →</a>
+                </div>
+                <div class="tool-card">
+                <i class="fa-solid fa-calculator"></i>
+                <h3>EMI Calculator</h3>
+                <p>Know how much you'll have to pay every month on your loan</p>
+                <a href="https://emicalculator.net/">View now →</a>
+                </div>
+                <div class="tool-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Investment Hotspot</h3>
+                <p>Discover the top localities in your city for investment</p>
+                <a href="#">View now →</a>
+                </div>
+                <div class="tool-card">
+                <i class="fa-solid fa-file-lines"></i>
+                <h3>Research Insights</h3>
+                <p>Get experts' insights and research reports on real estate</p>
+                <a href="#">View now →</a>
+                </div>
+            </div>
+            </div>
+    </div>
+    <footer>
+        <p style="text-align: center; ">@ 2024 Real Estate Listings. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
